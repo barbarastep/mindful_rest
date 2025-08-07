@@ -1,0 +1,28 @@
+/* Header */
+@font-face {
+  font-family: 'Libre Baskerville';
+  src:
+    url("./LibreBaskerville-Bold.woff2") format('woff2'),
+    url("./LibreBaskerville-Bold.woff") format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* Buttons and main text */
+@font-face {
+  font-family: 'Inter';
+  src:
+    url("./Inter-Regular.woff2") format('woff2'),
+    url("./Inter-Regular.woff") format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src:
+    url("./Inter-Bold.woff2") format('woff2'),
+    url("./Inter-Bold.woff") format('woff');
+  font-weight: 700;
+  font-display: swap;
+}

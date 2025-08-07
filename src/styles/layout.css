@@ -17,3 +17,7 @@
 .main {
   grid-area: main;
 }
+
+body.safari .card__image {
+  height: 250px;
+}

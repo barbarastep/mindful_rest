@@ -57,23 +57,12 @@
   background-color: transparent;
 }
 
-/* .theme-button_active {
+.theme-button_active {
   --line-height: 1;
-  border: 1px solid var(--accent-color, #A6A654);
+  outline: 1px solid var(--accent-color, #A6A654);
   padding-inline: 3.4vw;
   padding-block: 0.125rem;
   line-height: var(--line-height, 1.3);
   pointer-events: none;
-} */
-
-.theme-button:focus {
-  outline: none;
-}
-
-.theme-button:focus-visible {
-  outline: none;
-  text-decoration: underline;
-  text-decoration-color: currentColor;
-  text-underline-offset: 0.2em;
 }
 

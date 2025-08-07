@@ -8,9 +8,7 @@
 }
 
 .footer__text {
-  --text-shadow: 2px 2px 0 var(--accent-color, #A6A654);
   display: grid;
   place-items: center;
   text-align: center;
-  text-shadow: var(--text-shadow, 2px 2px 0 var(--accent-color, #A6A654));
 }
