@@ -1,0 +1,40 @@
+.card {
+  margin-inline: 2.7vw;
+  margin-block-end: 3.125rem;
+}
+
+.card:last-of-type {
+  margin-block: 2.5rem;
+}
+
+.card__title {
+  align-self: start;
+  margin-block-end: 1.2rem;
+  color: var(--accent-color, #A6A654);
+  font-family: inherit;
+  font-weight: var(--bold-font-weight, 700);
+  font-size: inherit;
+  line-height: var(--line-height, 1.3);
+}
+
+.card__picture .card__title {
+  margin-block-end: 0;
+}
+
+.card__subtitle {
+  align-self: start;
+}
+
+.card__text {
+  margin-block: 0.625rem 1.25rem;
+  color: var(--text-color, #000);
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: var(--line-height, 1.3);
+}
+
+.card__text-title {
+  margin-block: 1.25rem 0.625rem;
+  font-weight: inherit;
+}

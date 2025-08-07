@@ -2,27 +2,19 @@
   --main-font: 'Inter', sans-serif;
   --bold-font-weight: 700;
   --normal-font-weight: 400;
-  --main-font-size: 1.125rem; /* 18px */
+  --main-font-size: 1.125rem;
   --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --line-height: 1.3;
-  --text-color: #000; /* Light theme */
-  --accent-color: #a6a654; /* Light theme */
-  --title-color: #8d8d3b; /* Light theme */
-  --bg-color: #faf0e6; /* Light theme */
+  --text-color: #000;
+  --accent-color: #a6a654;
+  --title-color: #8d8d3b;
+  --bg-color: #faf0e6;
   --text-shadow: 4px 4px 0 #797927;
 }
 
-/* утренняя тема:
-   - Цвет фона: #faf0e6
-   - Цвет текста: #000
-   - Цвет заголовка: #faf0e6
-   - Цвет акцента: #797927
-   */
-
-/* вечерняя тема:
-   - Цвет фона: #1c1b18
-   - Цвет текста: #d4b67f
-   - Цвет текста на плашках: #eedcba
-   - Цвет заголовка: #deb975
-   - Цвет акцента: #b5a642
-   */
+body.dark {
+  --text-color: #d4b67f;
+  --accent-color: #b5a642;
+  --title-color: #deb975;
+  --bg-color: #1c1b18;
+}
